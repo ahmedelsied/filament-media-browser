@@ -1,0 +1,32 @@
+{
+    "name": "a0x01/filament-media-browser",
+    "description": "Filament media browser with a default driver and a Spatie Media driver.",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.4",
+        "filament/filament": "^3.2 || ^4.0 || ^5.0",
+        "illuminate/console": "^11.0|^12.0",
+        "illuminate/database": "^11.0|^12.0",
+        "illuminate/filesystem": "^11.0|^12.0",
+        "illuminate/support": "^11.0|^12.0"
+    },
+    "suggest": {
+        "filament/spatie-laravel-media-library-plugin": "Required when the media-browser driver is spatie.",
+        "spatie/laravel-medialibrary": "Required when the media-browser driver is spatie."
+    },
+    "autoload": {
+        "psr-4": {
+            "A0x01\\FilamentMediaBrowser\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "A0x01\\FilamentMediaBrowser\\MediaBrowserServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
