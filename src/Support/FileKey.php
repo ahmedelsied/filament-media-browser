@@ -1,6 +1,6 @@
 <?php
 
-namespace A0x01\FilamentMediaBrowser\Support;
+namespace AhmedElsied\FilamentMediaBrowser\Support;
 
 use Illuminate\Database\Eloquent\Model;
 

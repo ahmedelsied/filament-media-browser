@@ -1,14 +1,14 @@
 <?php
 
-namespace A0x01\FilamentMediaBrowser;
+namespace AhmedElsied\FilamentMediaBrowser;
 
-use A0x01\FilamentMediaBrowser\Adapters\DefaultAdapter;
-use A0x01\FilamentMediaBrowser\Adapters\SpatieMediaAdapter;
-use A0x01\FilamentMediaBrowser\Console\InstallCommand;
-use A0x01\FilamentMediaBrowser\Enums\Driver;
-use A0x01\FilamentMediaBrowser\Models\MediaPool;
-use A0x01\FilamentMediaBrowser\Ports\DefaultPort;
-use A0x01\FilamentMediaBrowser\Ports\SpatieMediaPort;
+use AhmedElsied\FilamentMediaBrowser\Adapters\DefaultAdapter;
+use AhmedElsied\FilamentMediaBrowser\Adapters\SpatieMediaAdapter;
+use AhmedElsied\FilamentMediaBrowser\Console\InstallCommand;
+use AhmedElsied\FilamentMediaBrowser\Enums\Driver;
+use AhmedElsied\FilamentMediaBrowser\Models\MediaPool;
+use AhmedElsied\FilamentMediaBrowser\Ports\DefaultPort;
+use AhmedElsied\FilamentMediaBrowser\Ports\SpatieMediaPort;
 use Illuminate\Database\Eloquent\Relations\Relation;
 use Illuminate\Support\ServiceProvider;
 

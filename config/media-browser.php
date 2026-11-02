@@ -8,7 +8,7 @@ return [
     |--------------------------------------------------------------------------
     |
     | Set by media-browser:install.
-    | Backed values of A0x01\FilamentMediaBrowser\Enums\Driver.
+    | Backed values of AhmedElsied\FilamentMediaBrowser\Enums\Driver.
     | Driver::Default binds DefaultPort. Driver::Spatie binds SpatieMediaPort.
     |
     */

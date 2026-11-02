@@ -1,8 +1,8 @@
 <?php
 
-namespace A0x01\FilamentMediaBrowser\Resources\MediaBrowserResource\Pages;
+namespace AhmedElsied\FilamentMediaBrowser\Resources\MediaBrowserResource\Pages;
 
-use A0x01\FilamentMediaBrowser\Resources\MediaBrowserResource;
+use AhmedElsied\FilamentMediaBrowser\Resources\MediaBrowserResource;
 use Filament\Actions\Action;
 use Filament\Resources\Pages\ListRecords;
 

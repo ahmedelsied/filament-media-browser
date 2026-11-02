@@ -1,6 +1,6 @@
 <?php
 
-namespace A0x01\FilamentMediaBrowser\Traits;
+namespace AhmedElsied\FilamentMediaBrowser\Traits;
 
 use Spatie\MediaLibrary\InteractsWithMedia;
 

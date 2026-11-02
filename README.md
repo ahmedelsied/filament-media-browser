@@ -34,11 +34,15 @@ The Spatie driver also requires `spatie/laravel-medialibrary` 11+.
 
 ## Installation
 
+Install the latest stable release from [Packagist](https://packagist.org/packages/ahmedelsied/filament-media-browser):
+
 ```bash
-composer require a0x01/filament-media-browser
+composer require ahmedelsied/filament-media-browser
 php artisan media-browser:install
 php artisan migrate
 ```
+
+Composer installs the highest stable version, currently `v1.0.0`. Laravel discovers `AhmedElsied\FilamentMediaBrowser\MediaBrowserServiceProvider` automatically.
 
 `media-browser:install` asks whether the project already uses Filament Spatie Media.
 
@@ -47,12 +51,12 @@ php artisan migrate
 | No | `default` | `media_browser_files`, `media_browser_attachments` |
 | Yes | `spatie` | `media_pool`, `media_attachments` |
 
-The command publishes `config/media-browser.php` and that driver's migrations. An existing config file keeps its other values, and the `driver` key is updated. A migration that is already published is left unchanged. The command does not edit `.env`.
+Answer **yes** only when `spatie/laravel-medialibrary` 11+ is installed. The command publishes `config/media-browser.php` and that driver's migrations. An existing config file keeps its other values, and the `driver` key is updated. A migration that is already published is left unchanged. The command does not edit `.env`.
 
 Register the plugin on the panel:
 
 ```php
-use A0x01\FilamentMediaBrowser\MediaBrowserPlugin;
+use AhmedElsied\FilamentMediaBrowser\MediaBrowserPlugin;
 
 public function panel(Panel $panel): Panel
 {
@@ -90,7 +94,7 @@ Changing `driver` later requires the other driver's migration. Files are not cop
 `MediaBrowserField` opens the library. The editor selects an existing file or uploads a new one. Saving the form writes the attachment for that collection. The field does not add a column to the record.
 
 ```php
-use A0x01\FilamentMediaBrowser\Forms\Components\MediaBrowserField;
+use AhmedElsied\FilamentMediaBrowser\Forms\Components\MediaBrowserField;
 
 MediaBrowserField::make('cover')
     ->image()
@@ -123,7 +127,7 @@ A record stores a link to a library file, grouped by collection name (`cover`, `
 No trait is required.
 
 ```php
-use A0x01\FilamentMediaBrowser\MediaLibrary;
+use AhmedElsied\FilamentMediaBrowser\MediaLibrary;
 
 $library = MediaLibrary::resolve();
 
@@ -155,8 +159,8 @@ $library->syncAttachments($post, 'gallery', []);
 Implement Spatie's `HasMedia` and use the pool trait:
 
 ```php
-use A0x01\FilamentMediaBrowser\Contracts\AttachesMedia;
-use A0x01\FilamentMediaBrowser\Traits\InteractsWithPoolMedia;
+use AhmedElsied\FilamentMediaBrowser\Contracts\AttachesMedia;
+use AhmedElsied\FilamentMediaBrowser\Traits\InteractsWithPoolMedia;
 use Illuminate\Database\Eloquent\Model;
 use Spatie\MediaLibrary\HasMedia;
 
@@ -176,7 +180,7 @@ $gallery = $post->getMedia('gallery');
 `syncAttachedMedia()` takes Spatie `media.id` values from `getKey()`. The uuid shown in the picker is a different value. When you have a uuid, load the media model first.
 
 ```php
-use A0x01\FilamentMediaBrowser\MediaLibrary;
+use AhmedElsied\FilamentMediaBrowser\MediaLibrary;
 
 $library = MediaLibrary::resolve();
 
@@ -200,8 +204,8 @@ $post->syncAttachedMedia('gallery', [
 Default driver:
 
 ```php
-use A0x01\FilamentMediaBrowser\MediaLibrary;
-use A0x01\FilamentMediaBrowser\Support\PreviewUrl;
+use AhmedElsied\FilamentMediaBrowser\MediaLibrary;
+use AhmedElsied\FilamentMediaBrowser\Support\PreviewUrl;
 
 $library = MediaLibrary::resolve();
 $cover = $library->attachments($post, 'cover')->first();
@@ -218,7 +222,7 @@ return [
 Spatie driver:
 
 ```php
-use A0x01\FilamentMediaBrowser\Support\PreviewUrl;
+use AhmedElsied\FilamentMediaBrowser\Support\PreviewUrl;
 
 $cover = $post->getFirstMedia('cover');
 

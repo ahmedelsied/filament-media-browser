@@ -1,12 +1,12 @@
 <?php
 
-namespace A0x01\FilamentMediaBrowser\Adapters;
+namespace AhmedElsied\FilamentMediaBrowser\Adapters;
 
-use A0x01\FilamentMediaBrowser\Enums\LibraryKind;
-use A0x01\FilamentMediaBrowser\Models\MediaPool;
-use A0x01\FilamentMediaBrowser\Ports\SpatieMediaPort;
-use A0x01\FilamentMediaBrowser\Support\LibraryFiles;
-use A0x01\FilamentMediaBrowser\Support\UsageLinks;
+use AhmedElsied\FilamentMediaBrowser\Enums\LibraryKind;
+use AhmedElsied\FilamentMediaBrowser\Models\MediaPool;
+use AhmedElsied\FilamentMediaBrowser\Ports\SpatieMediaPort;
+use AhmedElsied\FilamentMediaBrowser\Support\LibraryFiles;
+use AhmedElsied\FilamentMediaBrowser\Support\UsageLinks;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;

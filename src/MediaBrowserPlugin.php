@@ -1,10 +1,10 @@
 <?php
 
-namespace A0x01\FilamentMediaBrowser;
+namespace AhmedElsied\FilamentMediaBrowser;
 
 use Closure;
-use A0x01\FilamentMediaBrowser\Resources\DocumentBrowserResource;
-use A0x01\FilamentMediaBrowser\Resources\MediaBrowserResource;
+use AhmedElsied\FilamentMediaBrowser\Resources\DocumentBrowserResource;
+use AhmedElsied\FilamentMediaBrowser\Resources\MediaBrowserResource;
 use Filament\Contracts\Plugin;
 use Filament\Facades\Filament;
 use Filament\Panel;

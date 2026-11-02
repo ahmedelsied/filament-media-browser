@@ -1,6 +1,6 @@
 <?php
 
-namespace A0x01\FilamentMediaBrowser\Contracts;
+namespace AhmedElsied\FilamentMediaBrowser\Contracts;
 
 use Illuminate\Database\Eloquent\Model;
 use Spatie\MediaLibrary\HasMedia;

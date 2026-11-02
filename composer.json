@@ -1,5 +1,5 @@
 {
-    "name": "a0x01/filament-media-browser",
+    "name": "ahmedelsied/filament-media-browser",
     "description": "Filament media browser with a default driver and a Spatie Media driver.",
     "type": "library",
     "license": "MIT",
@@ -17,13 +17,13 @@
     },
     "autoload": {
         "psr-4": {
-            "A0x01\\FilamentMediaBrowser\\": "src/"
+            "AhmedElsied\\FilamentMediaBrowser\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "A0x01\\FilamentMediaBrowser\\MediaBrowserServiceProvider"
+                "AhmedElsied\\FilamentMediaBrowser\\MediaBrowserServiceProvider"
             ]
         }
     },

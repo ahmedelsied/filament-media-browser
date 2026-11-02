@@ -1,9 +1,9 @@
 <?php
 
-namespace A0x01\FilamentMediaBrowser\Resources;
+namespace AhmedElsied\FilamentMediaBrowser\Resources;
 
-use A0x01\FilamentMediaBrowser\Enums\LibraryKind;
-use A0x01\FilamentMediaBrowser\Resources\DocumentBrowserResource\Pages\ListDocumentBrowser;
+use AhmedElsied\FilamentMediaBrowser\Enums\LibraryKind;
+use AhmedElsied\FilamentMediaBrowser\Resources\DocumentBrowserResource\Pages\ListDocumentBrowser;
 
 class DocumentBrowserResource extends MediaBrowserResource
 {

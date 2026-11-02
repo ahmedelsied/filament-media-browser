@@ -1,8 +1,8 @@
 <?php
 
-namespace A0x01\FilamentMediaBrowser\Ports;
+namespace AhmedElsied\FilamentMediaBrowser\Ports;
 
-use A0x01\FilamentMediaBrowser\Enums\LibraryKind;
+use AhmedElsied\FilamentMediaBrowser\Enums\LibraryKind;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;

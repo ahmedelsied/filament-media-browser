@@ -1,8 +1,8 @@
 <?php
 
-namespace A0x01\FilamentMediaBrowser\Console;
+namespace AhmedElsied\FilamentMediaBrowser\Console;
 
-use A0x01\FilamentMediaBrowser\Enums\Driver;
+use AhmedElsied\FilamentMediaBrowser\Enums\Driver;
 use Illuminate\Console\Command;
 use RuntimeException;
 

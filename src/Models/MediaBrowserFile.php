@@ -1,6 +1,6 @@
 <?php
 
-namespace A0x01\FilamentMediaBrowser\Models;
+namespace AhmedElsied\FilamentMediaBrowser\Models;
 
 use Illuminate\Database\Eloquent\Casts\Attribute;
 use Illuminate\Database\Eloquent\Concerns\HasUlids;

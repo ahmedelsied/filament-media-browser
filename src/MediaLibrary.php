@@ -1,10 +1,10 @@
 <?php
 
-namespace A0x01\FilamentMediaBrowser;
+namespace AhmedElsied\FilamentMediaBrowser;
 
-use A0x01\FilamentMediaBrowser\Enums\Driver;
-use A0x01\FilamentMediaBrowser\Ports\DefaultPort;
-use A0x01\FilamentMediaBrowser\Ports\SpatieMediaPort;
+use AhmedElsied\FilamentMediaBrowser\Enums\Driver;
+use AhmedElsied\FilamentMediaBrowser\Ports\DefaultPort;
+use AhmedElsied\FilamentMediaBrowser\Ports\SpatieMediaPort;
 
 class MediaLibrary
 {

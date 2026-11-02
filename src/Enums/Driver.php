@@ -1,6 +1,6 @@
 <?php
 
-namespace A0x01\FilamentMediaBrowser\Enums;
+namespace AhmedElsied\FilamentMediaBrowser\Enums;
 
 enum Driver: string
 {

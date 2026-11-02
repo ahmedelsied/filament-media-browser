@@ -1,8 +1,8 @@
 <?php
 
-namespace A0x01\FilamentMediaBrowser\Support;
+namespace AhmedElsied\FilamentMediaBrowser\Support;
 
-use A0x01\FilamentMediaBrowser\MediaBrowserPlugin;
+use AhmedElsied\FilamentMediaBrowser\MediaBrowserPlugin;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\Relation;
 use Illuminate\Support\Facades\DB;

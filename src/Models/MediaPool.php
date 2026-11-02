@@ -1,10 +1,10 @@
 <?php
 
-namespace A0x01\FilamentMediaBrowser\Models;
+namespace AhmedElsied\FilamentMediaBrowser\Models;
 
 use BackedEnum;
-use A0x01\FilamentMediaBrowser\Enums\LibraryKind;
-use A0x01\FilamentMediaBrowser\Support\LibraryFiles;
+use AhmedElsied\FilamentMediaBrowser\Enums\LibraryKind;
+use AhmedElsied\FilamentMediaBrowser\Support\LibraryFiles;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Concerns\HasUlids;
 use Illuminate\Database\Eloquent\Model;
