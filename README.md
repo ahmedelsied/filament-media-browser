@@ -27,7 +27,7 @@ Use the default driver for a new library. Use the Spatie driver when the applica
 ## Requirements
 
 - PHP 8.4+
-- Laravel 11 or 12
+- Laravel 11, 12, or 13
 - Filament 3.2, 4, or 5
 
 The Spatie driver also requires `spatie/laravel-medialibrary` 11+.
