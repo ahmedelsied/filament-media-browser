@@ -42,7 +42,7 @@ php artisan media-browser:install
 php artisan migrate
 ```
 
-Composer installs the highest stable version, currently `v1.0.0`. Laravel discovers `AhmedElsied\FilamentMediaBrowser\MediaBrowserServiceProvider` automatically.
+Composer installs the highest stable version. Laravel discovers `AhmedElsied\FilamentMediaBrowser\MediaBrowserServiceProvider` automatically.
 
 `media-browser:install` asks whether the project already uses Filament Spatie Media.
 
